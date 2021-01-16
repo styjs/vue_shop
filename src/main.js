@@ -2,21 +2,18 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Button, Input, Form, FormItem, Message } from 'element-ui'
+import tools from './util/tool.js'
+
+import '@/plugins/index.js'
 
 import '@/assets/css/global.css'
 import 'element-ui/lib/theme-chalk/index.css'
 
-Vue.use(Button)
-Vue.use(Input)
-Vue.use(Form)
-Vue.use(FormItem)
-// Vue.use(Message)
-Vue.component('Message', Message)
-
 Vue.config.productionTip = false
 
-Vue.prototype.$message = Message
+Vue.config.devtools = true
+
+Vue.prototype.$tools = tools
 
 new Vue({
   router,

@@ -1,0 +1,217 @@
+{
+  "menuList": [
+    {
+      "id": 100,
+      "authName": "用户管理",
+      "path": null,
+      "children": [
+        {
+          "id": 101,
+          "authName": "用户列表",
+          "path": "users"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "authName": "权限管理",
+      "path": null,
+      "children": [
+        {
+          "id": 201,
+          "authName": "角色列表",
+          "path": "roles"
+        },
+        {
+          "id": 202,
+          "authName": "权限列表",
+          "path": "rights"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "authName": "商品管理",
+      "path": null,
+      "children": [
+        {
+          "id": 301,
+          "authName": "商品列表",
+          "path": "goods"
+        },
+        {
+          "id": 302,
+          "authName": "分类参数",
+          "path": "category1"
+        },
+        {
+          "id": 303,
+          "authName": "商品分类",
+          "path": "category2"
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "authName": "订单管理",
+      "path": null
+    },
+    {
+      "id": 500,
+      "authName": "数据统计",
+      "path": null
+    }
+  ],
+  "userList": [
+    {
+      "id": "10001",
+      "username": "tiger117",
+      "mobile": "18681169356",
+      "type": 1,
+      "email": "128645@qq.com",
+      "create_time": "2017-11-09T20:36:26.000Z",
+      "mg_state": true,
+      "role_name": "超级管理员"
+    },
+    {
+      "id": "10002",
+      "username": "mouse123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "测试员001"
+    },
+    {
+      "id": "10003",
+      "username": "王总管",
+      "mobile": "17212345678",
+      "type": 1,
+      "email": "784561@qq.com",
+      "create_time": "2019-11-11T10:33:46.326Z",
+      "mg_state": false,
+      "role_name": "主管"
+    },
+    {
+      "id": "10004",
+      "username": "高主管",
+      "mobile": "17456789123",
+      "type": 1,
+      "email": "1254568@qq.com",
+      "create_time": "2020-06-10T11:33:02.326Z",
+      "mg_state": true,
+      "role_name": "主管"
+    },
+    {
+      "id": "10005",
+      "username": "ming12",
+      "mobile": "17894564561",
+      "type": 1,
+      "email": "1234597322@qq.com",
+      "create_time": "2019-08-11T04:26:11.326Z",
+      "mg_state": false,
+      "role_name": "明总"
+    },
+    {
+      "id": "10006",
+      "username": "mouse123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "测试员001"
+    },
+    {
+      "id": "10007",
+      "username": "mouse123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "测试员001"
+    },
+    {
+      "id": "10008",
+      "username": "mouse123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "测试员001"
+    },
+    {
+      "id": "10009",
+      "username": "liu123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户006"
+    },
+    {
+      "id": "10010",
+      "username": "sdfaj",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户005"
+    },
+    {
+      "id": "10011",
+      "username": "dfadfa78",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户004"
+    },
+    {
+      "id": "10012",
+      "username": "dfadsa123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户003"
+    },
+    {
+      "id": "10013",
+      "username": "se123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户002"
+    },
+    {
+      "id": "10014",
+      "username": "mo123",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户001"
+    },
+    {
+      "id": "10015",
+      "username": "dhfjak",
+      "mobile": "1326896532",
+      "type": 1,
+      "email": "789456@qq.com",
+      "create_time": "2018-12-10T06:26:11.326Z",
+      "mg_state": false,
+      "role_name": "用户000"
+    }
+  ]
+}
